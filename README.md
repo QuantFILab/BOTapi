@@ -1,25 +1,22 @@
 ## BOTapi
 
 
-<b>BOTapi</b> is R package to help R users to batch Thai economics and financial data from Bank of Thailand via API.
+**BOTapi** is R package to help R users to batch Thai economics and financial data from Bank of Thailand via API.
 
 ## Installation
 
-The easiest way to install the **rmarkdown** package is from within the [RStudio IDE](https://posit.co/download/rstudio-desktop/), but you don't need to explicitly install it or load it, as RStudio automatically does both when needed. A recent version of Pandoc (>= 1.12.3) is also required; RStudio also automatically includes this too so you do not need to download Pandoc if you plan to use rmarkdown from the RStudio IDE.
-
-If you want to use the rmarkdown package outside of RStudio, you can install the package from CRAN as follows:
+BOTapi is not on CRAN reposity yet so you need to install by the [**remotes** package](https://remotes.r-lib.org). First, install [**remotes** package](https://remotes.r-lib.org), 
 
 ```r
-install.packages("rmarkdown")
+install.packages("remotes")
 ```
 
-If you want to use the development version of the rmarkdown package (either with or without RStudio), you can install the package from GitHub via the [**remotes** package](https://remotes.r-lib.org):
+Then you can install **BOTapi** by the following line,
 
 ```r
-remotes::install_github('rstudio/rmarkdown')
+remotes::install_github('QauntFILab/BOTapi')
 ```
 
-If not using the RStudio IDE, you'll need to install a recent version of Pandoc (>= 1.12.3); see the [Pandoc installation instructions](https://pandoc.org/installing.html) for help.
 
 ## Usage
 

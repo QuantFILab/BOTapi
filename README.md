@@ -35,16 +35,29 @@ You can see the instruction of using in the function information by inputing to 
 ? get.observe
 ```
 
-List of data catagories and series for statistics can be find [here]()
+List of data catagories and series for statistics can be find [here](https://github.com/QuantFILab/BOTapi/blob/main/API%20Statistic%20time%20series.xlsx)
 
 List of Functions are shown below.
 
-| Function | Detail | Group |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
-
-
-
+| Function      | Detail         |  Link to Official Document |
+| :---:         |     :---:      |          :---: |    
+| get.product   |  get list of financial product for comparison   | [here](https://apiportal.bot.or.th/bot/public/node/6108)   |
+| get.observe   |  get statistics by input data series     |  [here](https://apiportal.bot.or.th/bot/public/node/9820)    |
+| search.stat   |  search data series by keyword   |  [here](https://apiportal.bot.or.th/bot/public/node/107)   |
+| get.category.list    |  get list of allc ategories and codes    |  [here](https://apiportal.bot.or.th/bot/public/node/1111)   |
+| get.series.list      |  get list of all series and codes by given catagory   |  [here](https://apiportal.bot.or.th/bot/public/node/1111)   |
+| get.ref.rate     |  get list of weighted-average international bank exchange rate    |  [here](https://apiportal.bot.or.th/bot/public/node/407)   |
+| get.avg.exg.rate   |   get list of average exchange rate - THB / Foreign Currency    |  [here](https://apiportal.bot.or.th/bot/public/node/503)   |
+| get.ext.rates        |  get list of series of external interest rates    |  [here](https://apiportal.bot.or.th/bot/public/node/465)   |
+| get.tbimplied.rates     |  get list of series of Thai Baht implied interest rates   |  [here](https://apiportal.bot.or.th/bot/public/node/468)   |
+| get.spot.rates   |  get list of series of spot rate in USD/THB    |  [here](https://apiportal.bot.or.th/bot/public/node/466)   |
+| get.swap.rates   |  get list of  series of swap point - onshore in Satangs   |  [here](https://apiportal.bot.or.th/bot/public/node/463)   |
+| get.inter.tran.rates   |  get list of  series of International bank transaction rates   |  [here](https://apiportal.bot.or.th/bot/public/node/464)   |
+| get.policy.rate    |  get current policy rate   |  [here](https://apiportal.bot.or.th/bot/public/node/462)   |
+| gget.bibor.rates    |  get list of  series of Bangkok international bank offered rate   |  [here](https://apiportal.bot.or.th/bot/public/node/460)   |
+| get.deposit.rates   |  get list of  series of deposit interest rates for individuals of commercial banks   |  [here](https://apiportal.bot.or.th/bot/public/node/461)   |
+| get.loan.rates   |  get list of  series of loan interest rates of commercial banks (percent per annum)   |  [here](https://apiportal.bot.or.th/bot/public/node/467)   |
+| get.debt.sec    |  get list of  series of debt securities auction result   |  [here](https://apiportal.bot.or.th/bot/public/node/120)   |
+| get.holiday  |  get list of  series of financial institutions' holidays in given year   |  [here](https://apiportal.bot.or.th/bot/public/node/104)   |
 
 

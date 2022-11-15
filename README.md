@@ -21,7 +21,7 @@ remotes::install_github('QuantFILab/BOTapi')
 
 ## Usage
 
-First of all, you need to regist an account on the offical BOT API webpage [here](https://apiportal.bot.or.th/bot/public/). Then you can submit a request to access the API. BOT provides seven APIs whcih can access for free [here](https://apiportal.bot.or.th/bot/public/products). You need to send a request for every APIs to use all function in **BOTapi**. You obatain the **Client ID** on your account dashboard at API menu.
+First of all, you need to regist an account on the offical BOT API webpage [here](https://apiportal.bot.or.th/bot/public/). Then you can submit a request to access the APIs which can be accessed for free [here](https://apiportal.bot.or.th/bot/public/products). You need to send requests for all APIs catagories (seven) to use all functions in **BOTapi**. You will obatain the **Client ID** on your account dashboard at App menu.
 
 
 To be easy to use the functions inside the package, you should set variable of Client ID, such as

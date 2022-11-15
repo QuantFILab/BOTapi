@@ -14,17 +14,14 @@ install.packages("remotes")
 Then you can install **BOTapi** by the following line,
 
 ```r
-remotes::install_github('QauntFILab/BOTapi')
+remotes::install_github('QuantFILab/BOTapi')
 ```
 
 
 ## Usage
 
-The easiest way to make a new R Markdown document is from within RStudio. Go to _File > New File > R Markdown_. From the new file wizard, you may:
+First of all, you need to regist an account on the offical BOT API webpage [here](https://apiportal.bot.or.th/bot/public/). Then you can submit a request to access the API. BOT provides seven APIs whcih can access for free [here](https://apiportal.bot.or.th/bot/public/products). You need to send a request for every APIs to use all function in **BOTapi**. You obatain the **Client ID** on your account dashboard at API menu.
 
-+ Provide a document title (_optional but recommended_),
-+ Provide an author name (_optional but recommended_),
-+ Select a default output format- HTML is the recommended format for authoring, and you can switch the output format anytime (_required_), 
-+ Click **OK** (_required_).
 
-Once inside your new `.Rmd` file, you should see some boilerplate text that includes code chunks. Use the "Knit" button in the RStudio IDE to render the file and preview the output with a single click or use the keyboard shortcut Cmd/Ctrl + Shift + K. 
+The functions provided in the package are listed in the following table;
+

@@ -256,10 +256,10 @@ get.series.list <- function(id, category){
 #' @return List of weighted-average international bank exchange rate and their information
 #' @examples 
 #' 
-#' m.ref.rate <- get.ref.rate(id,'2017-01-01','2017-12-31', freq = 'm');
+#' m.get.exg.rate <- get.exg.rate(id,'2017-01-01','2017-12-31', freq = 'm');
 #' 
 #' @export
-get.ref.rate <- function(id, start_period, end_period, freq = 'd'){
+get.exg.rate  <- function(id, start_period, end_period, freq = 'd'){
   check.define()
   input.inlist.check(freq, c('d','m','q','y'))
   url.endpoint <- 'https://apigw1.bot.or.th/bot/public/Stat-ReferenceRate/v2/'
@@ -561,40 +561,6 @@ get.bibor.rates <- function(id, start_period, end_period, bank = NULL){
 }
 
 
-###############################################################################
-##########Bangkok Interbank Offered Rate (BIBOR) (Percent per annum) 2.0.0##############################################
-###############################################################################
-
-#' Bangkok Interbank Offered Rate (BIBOR) (Percent per annum)
-#'
-#' Get series of Bangkok international bank offered rate  \cr 
-#' BoT reference: Interbank transactions rates are classified by lending period (tenor) such as Overnight (O/N) , Tom/Next , Overnight Forward Start , At Call and Fixed Term. \cr
-#' Release schedule : every business day at 10.00 a.m.\cr
-#' Lag time : 1 business day \cr
-#' Source of data: All commercial banks, Export-Import Bank of Thailand , The Government Savings Bank , Bank for Agricultue and Agricultural Cooperatives , Small and Medium Enterprise Development Bank of Thailand , The Government Housing Bank and Islamic Bank of Thailand, and All finance companies 
-#' 
-#' @param id Client ID obtained from BoT
-#' @param start_period Start Period Date (YYYY-MM-DD) 
-#' @param end_period End Period Date (YYYY-MM-DD)
-#' @param term_type Term type
-#' @return List of series of swap point - onshore and their information
-#' @examples 
-#' 
-#' bibor.rates  <- get.bibor.rates(id,'2017-01-01','2017-12-31');
-#' 
-#' @export
-get.bibor.rates <- function(id, start_period, end_period, bank = NULL, type = 'raw'){
-  check.define()
-  input.inlist.check(type, c('raw','avg'))
-  switch(tolower(type),
-         raw = {url <- "https://apigw1.bot.or.th/bot/public/BIBOR/v2/bibor_rate/"},
-         avg =   {url <- "https://apigw1.bot.or.th/bot/public/BIBOR/v2/bibor_avg_rate/"},
-         )
-  params <- list('start_period' = start_period,'end_period' = end_period, 'bank' = bank)
-  res <- httr::GET(url = url, httr::add_headers(.headers=id.header(id)), encode = 'form', query = params)
-  res.json <- fromJSON(content(res, as = 'text', encoding = "utf-8"))
-   return(as.list(res.json$result$data))
-}
 
 
 
@@ -732,3 +698,4 @@ get.holiday <- function(id, year){
   res.json <- fromJSON(content(res, as = 'text', encoding = "utf-8"))
   return(as.list(res.json$result$data))
 }
+

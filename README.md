@@ -9,6 +9,7 @@ BOTapi is not on CRAN reposity yet so you need to install by the [**remotes** pa
 
 ```r
 install.packages("remotes")
+library(remotes)
 ```
 
 Then you can install **BOTapi** by the following line,

@@ -5,7 +5,7 @@
 
 ## Installation
 
-BOTapi is not on CRAN reposity yet so you need to install by the [**remotes** package](https://remotes.r-lib.org). First, install [**remotes** package](https://remotes.r-lib.org), 
+BOTapi does not appear on CRAN reposity yet so you need to install by the [**remotes** package](https://remotes.r-lib.org). First, install [**remotes** package](https://remotes.r-lib.org), 
 
 ```r
 install.packages("remotes")

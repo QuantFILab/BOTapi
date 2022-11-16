@@ -17,6 +17,14 @@ Then you can install **BOTapi** by the following line,
 ```r
 remotes::install_github('QuantFILab/BOTapi')
 ```
+The package requires other two packages as its dependency, so you need to cooperate **httr** and **jsonlite** in your working environment. Here is a header of R scritp,
+
+```r
+library(httr)
+llibrary(jsonlite)
+library(BOTapi)
+```
+
 
 
 ## Usage
@@ -60,5 +68,7 @@ List of Functions are shown below.
 | get.loan.rates   |  get list of  series of loan interest rates of commercial banks (percent per annum)   |  [here](https://apiportal.bot.or.th/bot/public/node/467)   |
 | get.debt.sec    |  get list of  series of debt securities auction result   |  [here](https://apiportal.bot.or.th/bot/public/node/120)   |
 | get.holiday  |  get list of  series of financial institutions' holidays in given year   |  [here](https://apiportal.bot.or.th/bot/public/node/104)   |
+
+## Examples
 
 

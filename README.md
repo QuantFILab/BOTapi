@@ -20,7 +20,7 @@ remotes::install_github('QuantFILab/BOTapi')
 
 ## Usage
 
-First of all, you need to regist an account on the offical BOT API webpage [here](https://apiportal.bot.or.th/bot/public/). Then you can submit a request to access the APIs which can be accessed for free [here](https://apiportal.bot.or.th/bot/public/products). You need to send requests for all APIs catagories (seven) to use all functions in **BOTapi**. You will obatain the **Client ID** on your account dashboard at App menu. Bank of Thailand allows as to access more than 500 datas sereis that will benafit from our research and bussiness analystic.
+First of all, you need to regist an account on the offical BOT API webpage [here](https://apiportal.bot.or.th/bot/public/). Then you can submit a request to access the APIs which can be accessed for free [here](https://apiportal.bot.or.th/bot/public/products). You need to send requests for all APIs catagories (seven) to use all functions in **BOTapi**. You will obatain the **Client ID** on your account dashboard at App menu. Bank of Thailand allows as to access more than 500 data sereis that will benafit from our research and bussiness analystic.
 
 
 To be easy to use the functions inside the package, you should set variable of Client ID, such as

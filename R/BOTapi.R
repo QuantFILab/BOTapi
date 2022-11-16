@@ -1,8 +1,8 @@
 ###############################################################################
 #Developer: Pasin Marupanthorn, Ph.D, AMIMA
 #BOtapi: Package for connecting Bank of Thailand Application Programming Interface
-#Version: 1.0
-#Date: 15/11/2022
+#Version: 0.0.2
+#Date: 16/11/2022
 #Open R package by QunatFILab
 ###############################################################################
 
@@ -11,6 +11,10 @@ library(httr)
 library(jsonlite)
 
 
+#' @importFrom jsonlite fromJSON
+#' @importFrom httr content GET POST
+#' 
+#' 
 ###############################################################################
 ##########General Function#####################################################
 ###############################################################################

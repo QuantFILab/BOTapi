@@ -36,7 +36,7 @@ You can see the instruction of using in the function information by inputing to 
 ? get.observe
 ```
 
-List of data catagories and series for statistics can be find [here](https://github.com/QuantFILab/BOTapi/blob/main/API%20Statistic%20time%20series.xlsx)
+List of data catagories and series for statistics can be found [here](https://github.com/QuantFILab/BOTapi/blob/main/API%20Statistic%20time%20series.xlsx)
 
 List of Functions are shown below.
 
@@ -55,7 +55,7 @@ List of Functions are shown below.
 | get.swap.rates   |  get list of  series of swap point - onshore in Satangs   |  [here](https://apiportal.bot.or.th/bot/public/node/463)   |
 | get.inter.tran.rates   |  get list of  series of International bank transaction rates   |  [here](https://apiportal.bot.or.th/bot/public/node/464)   |
 | get.policy.rate    |  get current policy rate   |  [here](https://apiportal.bot.or.th/bot/public/node/462)   |
-| gget.bibor.rates    |  get list of  series of Bangkok international bank offered rate   |  [here](https://apiportal.bot.or.th/bot/public/node/460)   |
+| get.bibor.rates    |  get list of  series of Bangkok international bank offered rate   |  [here](https://apiportal.bot.or.th/bot/public/node/460)   |
 | get.deposit.rates   |  get list of  series of deposit interest rates for individuals of commercial banks   |  [here](https://apiportal.bot.or.th/bot/public/node/461)   |
 | get.loan.rates   |  get list of  series of loan interest rates of commercial banks (percent per annum)   |  [here](https://apiportal.bot.or.th/bot/public/node/467)   |
 | get.debt.sec    |  get list of  series of debt securities auction result   |  [here](https://apiportal.bot.or.th/bot/public/node/120)   |

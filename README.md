@@ -76,6 +76,6 @@ start_period <- "2020-01-01"
 series_code <- "EIRPPIM00080"
 
 #Getting list of Data and its information
-get.observe(id,series_code ,start_period )
+get.observe(id,series_code ,start_period)
 ```
 

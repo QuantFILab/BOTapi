@@ -17,15 +17,6 @@ Then you can install **BOTapi** by the following line,
 ```r
 remotes::install_github('QuantFILab/BOTapi')
 ```
-The package requires other two packages as its dependency, so you need to cooperate **httr** and **jsonlite** in your working environment. Here is a header of R scritp,
-
-```r
-library(httr)
-llibrary(jsonlite)
-library(BOTapi)
-```
-
-
 
 ## Usage
 

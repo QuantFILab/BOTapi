@@ -20,7 +20,7 @@ remotes::install_github('QuantFILab/BOTapi')
 
 ## Usage
 
-First of all, you need to regist an account on the offical BOT API webpage [here](https://apiportal.bot.or.th/bot/public/). Then you can submit a request to access the APIs which can be accessed for free [here](https://apiportal.bot.or.th/bot/public/products). You need to send requests for all APIs catagories (seven) to use all functions in **BOTapi**. You will obatain the **Client ID** on your account dashboard at App menu.
+First of all, you need to regist an account on the offical BOT API webpage [here](https://apiportal.bot.or.th/bot/public/). Then you can submit a request to access the APIs which can be accessed for free [here](https://apiportal.bot.or.th/bot/public/products). You need to send requests for all APIs catagories (seven) to use all functions in **BOTapi**. You will obatain the **Client ID** on your account dashboard at App menu. Bank of Thailand allows as to access more than 500 datas sereis that will benafit from our research and bussiness analystic.
 
 
 To be easy to use the functions inside the package, you should set variable of Client ID, such as
@@ -62,4 +62,20 @@ List of Functions are shown below.
 
 ## Examples
 
+
+```r
+library(BOTapi)
+
+#Setting your ID Client
+id <- 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxx' 
+
+#Setting start date of batching data
+start_period <- "2020-01-01"
+
+#sSetting sereis code of the data set "Land monthly price index : Bangkok and vicinities"
+series_code <- "EIRPPIM00080"
+
+#Getting list of Data and its information
+get.observe(id,series_code ,start_period )
+```
 

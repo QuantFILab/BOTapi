@@ -76,6 +76,19 @@ start_period <- "2020-01-01"
 series_code <- "EIRPPIM00080"
 
 #Getting list of Data and its information
-get.observe(id,series_code ,start_period)
+land <- get.observe(id,series_code ,start_period)
+
+#Checking data unit
+land$unit_eng
+
+#Checking last updating
+land$last_update_date
+
+#Accesing data
+land$observations
+
+#Accesing individual data (in case of multiple results)
+land$observations[[1]]
+land$observations[[2]]
 ```
 

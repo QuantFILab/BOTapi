@@ -46,7 +46,7 @@ List of Functions are shown below.
 | search.stat   |  search data series by keyword   |  [here](https://apiportal.bot.or.th/bot/public/node/107)   |
 | get.category.list    |  get list of allc ategories and codes    |  [here](https://apiportal.bot.or.th/bot/public/node/1111)   |
 | get.series.list      |  get list of all series and codes by given catagory   |  [here](https://apiportal.bot.or.th/bot/public/node/1111)   |
-| get.ref.rate     |  get list of weighted-average international bank exchange rate    |  [here](https://apiportal.bot.or.th/bot/public/node/407)   |
+| get.exg.rate     |  get list of weighted-average international bank exchange rate    |  [here](https://apiportal.bot.or.th/bot/public/node/407)   |
 | get.avg.exg.rate   |   get list of average exchange rate - THB / Foreign Currency    |  [here](https://apiportal.bot.or.th/bot/public/node/503)   |
 | get.ext.rates        |  get list of series of external interest rates    |  [here](https://apiportal.bot.or.th/bot/public/node/465)   |
 | get.tbimplied.rates     |  get list of series of Thai Baht implied interest rates   |  [here](https://apiportal.bot.or.th/bot/public/node/468)   |

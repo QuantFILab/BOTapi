@@ -84,10 +84,10 @@ land$unit_eng
 #Checking last updating
 land$last_update_date
 
-#Accesing data
+#Accessing data
 land$observations
 
-#Accesing individual data (in case of multiple results)
+#Accessing individual data (in case of multiple results)
 land$observations[[1]]
 land$observations[[2]]
 ```

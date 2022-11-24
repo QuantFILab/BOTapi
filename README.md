@@ -35,6 +35,13 @@ You can see the instruction of using in the function information by inputing to 
 ? get.observe
 ```
 
+If the package requires some missing functions, please install dependent packages
+
+```r
+library(httr)
+library(jsonlite)
+```
+
 List of data catagories and series for statistics can be found [here](https://github.com/QuantFILab/BOTapi/blob/main/API%20Statistic%20time%20series.xlsx)
 
 List of Functions are shown below.

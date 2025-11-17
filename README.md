@@ -1,6 +1,6 @@
 ## BOTapi
 
-**BOTapi** is R package to help R users to batch Thai economics and financial data from Bank of Thailand via API.
+**BOTapi** is R package to help R users to batch Thai economics and financial data from Bank of Thailand via API. $$F =ma$$
 
 ## Installation
 
